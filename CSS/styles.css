@@ -8,6 +8,13 @@ body{
     display: block;
     align-items: center;
   }
+.logitos > img{
+    margin-left: auto;
+    background-color: #333;
+
+    display: flex;
+    justify-content: flex-end; 
+}
 
   .text1_img1,
   .text2_img1 {
@@ -37,7 +44,7 @@ nav{
     align-items: center;
     height: 20px;
 }
- nav button{
+ nav a{
     display: inline-block;
     padding: 10px 20px;
     margin: 5px;
@@ -49,6 +56,10 @@ nav{
     font-family: sans-serif;
     font-size: 16px;
     align-content: center;
+    cursor: pointer;
+  }
+nav a:active{
+    font-weight: bold; /* Cambia el peso de la fuente a negrilla al hacer clic */
   }
 section .botones {
     display: flex;
@@ -61,14 +72,22 @@ section button{
     justify-content: space-evenly;
     padding: 10px 20px;
     margin: 5px;
-    background-color: #ffffff;
-    border: 1px solid #ccc;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid rgb(70, 70, 70);
     border-radius: 5px;
     text-decoration: none;
-    color: #333;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 14px;
     align-items: center;
+    cursor: pointer;
+}
+section button:hover{
+    color:rgb(56, 73, 226);
+}
+.btntb:hover{
+    background-color: rgb(56, 73, 226);
+    color: white;
 }
 nav{
     align-items: center;
@@ -96,7 +115,26 @@ nav{
 td {
     padding: flex;
     text-align: left;
+    background-color: #ccc;
+    cursor: pointer;
+}
+td > a:hover{
+    color:rgb(56, 73, 226);
 }
 tr{
     margin-top: 20px;
+}
+.menubajo{
+    background-color: rgb(70, 70, 70);
+    color:#ffffff;
+    border: 1px solid rgb(70, 70, 70);;
+}
+footer{
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: left;
+}
+.imgfooter{
+    margin-left: auto;
+    display: flex;
 }
