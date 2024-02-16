@@ -2,6 +2,19 @@ body{
     background-color: rgb(255, 255, 255);
     
 }
+select {
+    content: '\25BC'; 
+    font-weight: bold;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #fff;
+    color: #333;
+  }
+select:hover{
+    color:rgb(56, 73, 226);
+}
+
 .img_1 {
     width: 100%;
     height: flex;
@@ -72,18 +85,23 @@ section button{
     justify-content: space-evenly;
     padding: 10px 20px;
     margin: 5px;
-    background-color: rgb(70, 70, 70);
-    border: 1px solid rgb(70, 70, 70);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 5px;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
     align-items: center;
     cursor: pointer;
 }
 section button:hover{
     color:rgb(56, 73, 226);
+}
+.btntb{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
 }
 .btntb:hover{
     background-color: rgb(56, 73, 226);
@@ -127,7 +145,8 @@ tr{
 .menubajo{
     background-color: rgb(70, 70, 70);
     color:#ffffff;
-    border: 1px solid rgb(70, 70, 70);;
+    border: 1px solid rgb(70, 70, 70);
+    align-items: left;
 }
 footer{
     background-color: #f0f0f0;
